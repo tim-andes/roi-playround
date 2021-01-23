@@ -2,7 +2,7 @@ import pytest
 import adjusted_growth_rate
 import roi_no_contributions
 
-# Adjusted rate / real_rate
+# adjusted_growth_rate
 @pytest.mark.parametrize("growth_rate, inflation_rate, expected",
                          [(0, 0, 0),
                           (.1, .03, 0.06796),
@@ -11,7 +11,7 @@ import roi_no_contributions
 def test_real_rate(growth_rate, inflation_rate, expected):
     assert adjusted_growth_rate.real_rate(growth_rate, inflation_rate) == expected  
 
-# ROI, no contributions
+# roi_no_contributions
 @pytest.mark.parametrize("starting_principal, years_invested, compound_frequency,"
                         "real_rate, expected",
                         [
