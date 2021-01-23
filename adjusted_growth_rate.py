@@ -8,5 +8,5 @@ def real_rate(growth_rate, inflation_rate):
 	real_rate = ((1 + growth_rate) / (1 + inflation_rate)) - 1
 	return round(real_rate, 5)
   
-  if __name__ == "__main__":
-	real_rate(growth_rate, inflation_rate)
+if __name__ == "__main__":
+real_rate(growth_rate, inflation_rate)
