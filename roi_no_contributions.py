@@ -18,8 +18,6 @@ def roi(starting_principal, years_invested, compound_frequency, real_rate):
 	final_balance *= starting_principal
 	final_balance = round(final_balance)
 
-	print(final_balance)
-
 	return final_balance
   
   if __name__ == "__main__":
