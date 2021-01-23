@@ -1,5 +1,6 @@
 def real_rate(growth_rate, inflation_rate):
 	"""
+	Calculate the real investment growth rate after adjusting for inflation.
 	
 	:param growth_rate: Growth rate of investment
 	:param inflation_rate: Rate of inflation
