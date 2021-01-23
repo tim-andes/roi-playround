@@ -20,5 +20,5 @@ def test_real_rate(growth_rate, inflation_rate, expected):
 ])
 def test_roi(starting_principal, years_invested, compound_frequency, real_rate,
              expected):
-    assert roi_playground.roi(starting_principal, years_invested,
+    assert roi_no_contributions.roi(starting_principal, years_invested,
                               compound_frequency, real_rate) == expected
