@@ -1,4 +1,5 @@
-import roi_playground
+import adjusted_growth_rate
+import roi_no_contributions
 
 # Adjusted rate / real_rate
 @pytest.mark.parametrize("growth_rate, inflation_rate, expected",
