@@ -7,7 +7,8 @@ def real_rate(growth_rate, inflation_rate):
 	:return: Adjusted growth rate after inflation
 	"""
 	real_rate = ((1 + growth_rate) / (1 + inflation_rate)) - 1
-	return round(real_rate, 5)
+	real_rate = round(real_rate, 5)
+	return real_rate
   
 if __name__ == "__main__":
 	real_rate(growth_rate, inflation_rate)
