@@ -9,4 +9,4 @@ def real_rate(growth_rate, inflation_rate):
 	return round(real_rate, 5)
   
 if __name__ == "__main__":
-real_rate(growth_rate, inflation_rate)
+	real_rate(growth_rate, inflation_rate)
