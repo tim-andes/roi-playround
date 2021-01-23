@@ -8,7 +8,7 @@ import roi_no_contributions
                           (.05, .03, .01942),
                           (1, .5, 0.33333)])
 def test_real_rate(growth_rate, inflation_rate, expected):
-    assert roi_playground.real_rate(growth_rate, inflation_rate) == expected  
+    assert adjusted_growth_rate.real_rate(growth_rate, inflation_rate) == expected  
 
 # ROI, no contributions
 @pytest.mark.parametrize("starting_principal, years_invested, compound_frequency,"
