@@ -1,6 +1,6 @@
 import adjusted_growth_rate
 
-def roi(starting_principal, years_invested, compound_frequency, real_rate):
+def roi(starting_principal, years_invested, compound_frequency, real_growth_rate):
 	"""
 	Calculate return on investment, excluding monthly contributions.
 
@@ -21,5 +21,5 @@ def roi(starting_principal, years_invested, compound_frequency, real_rate):
 	return final_balance
   
   if __name__ == "__main__":
-    real_rate = adjusted_growth_rate.real_rate(growth_rate, inflation_rate)
-    roi(starting_principal, years_invested, compound_frequency, real_rate)
+    real_growth_rate = adjusted_growth_rate.real_growth_rate(growth_rate, inflation_rate)
+    roi(starting_principal, years_invested, compound_frequency, real_growth_rate)
