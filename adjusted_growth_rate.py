@@ -1,4 +1,4 @@
-def real_rate(growth_rate, inflation_rate):
+def real_growth_rate(growth_rate, inflation_rate):
 	"""
 	Calculate the real investment growth rate after adjusting for inflation.
 	
@@ -11,4 +11,4 @@ def real_rate(growth_rate, inflation_rate):
 	return real_rate
   
 if __name__ == "__main__":
-	real_rate(growth_rate, inflation_rate)
+	real_growth_rate(growth_rate, inflation_rate)
